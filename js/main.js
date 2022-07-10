@@ -97,3 +97,59 @@
 // }
 
 // console.log(myFun(myArray))
+
+
+// function findIndex(arr, str){
+
+
+//     let indexNumber;
+
+//    for(let i = 0; i < arr.length; i++){
+
+//       if(arr[i] !== str){
+
+//         indexNumber = i;
+//       }else{
+
+//         return i
+//       }
+//    }
+
+
+// }
+// console.log(findIndex(['Apple', 'Banana', 'Oringe'], 'Banana'));
+
+// const findIndex = (arr, x) => {
+//     let a;
+//     for (let i = 0; i < arr.length; i++) {
+//       if (arr[i] !== x) {
+//         a = i;
+//       } else {
+//         return i;
+//       }
+//     }
+//   };
+  
+//   console.log(findIndex(["hi", "edabit", "fgh", "abc"], "fgh"));
+//   console.log(findIndex(["Red", "blue", "Blue", "Green"], "blue"));
+//   console.log(findIndex(["a", "g", "y", "d"], "d"));
+//   console.log(findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple"))
+  
+// const findIndex = (arr, str) =>{
+
+//     let a ;
+
+//     for(let i = 0; i < arr.length; i++){
+
+//         if(arr[i] !== str){
+
+//             a = i;
+//         }else{
+
+//             return i;
+//         }
+//     }
+// };
+
+// console.log(findIndex(['Apple', 'Banana', 'Oringe'], 'Oringe'));
+// console.log(findIndex(['a', 'b', 'c'], 'c'));
